@@ -38,7 +38,7 @@ header {
 }
 
 
-.container {
+.container-header {
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
@@ -52,4 +52,73 @@ header {
     padding: 10px 20px;
     border-radius: 25px;
     display: none;
+}
+
+/* ----- PRIMA SECTION ----- */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-demo {
+    background-color: #b9dbfe;
+    border-radius: 25px;
+    padding: 20px 20px 0;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.txt h1 {
+    width: 50%;
+    color: #0084fd;
+    font-weight: 700;
+}
+
+.txt p {
+    margin-top: 20px;
+    color: #567fab;
+    line-height: 25px;
+}
+
+#appstore-btn {
+    color: white;
+    background-color: #0084fd;
+    padding: 10px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    align-self: flex-start;
+}
+
+#iphone {
+    width: 50%;
+    filter: saturate(0.8);
+    border-radius: 15px;
+}
+
+.content-code {
+    background-color: #caf0db;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.content-code i {
+    color: #54c688;
+    font-size: 120px;
+}
+
+.txt-code {
+    text-align: center;
+}
+
+.txt-code h1 {
+    color: #5ebe81;
+    font-weight: 700;
+}
+
+.txt-code p {
+    margin-top: 20px;
+    color: #739b81;
+    line-height: 25px;
 }
