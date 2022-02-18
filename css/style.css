@@ -222,7 +222,7 @@ header {
 /* ----- SECONDA SECTION ----- */
 .section-large {
     background-color: #9692e6;
-    margin: 25px 0;
+    margin-top: 25px;
     padding: 50px 0;
 }
 
@@ -340,6 +340,7 @@ header {
     align-items: center;
     row-gap: 20px;
 }
+
 .txt-bender h2 {
     font-size: 20px;
     font-weight: normal;
@@ -354,4 +355,137 @@ header {
 .potrait {
     width: 50%;
     border-radius: 50%;
+}
+
+/* ----- QUARTA SECTION ----- */
+.txt-benefit {
+    color: white;
+}
+
+.content-benefit {
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+.content-benefit i {
+    font-size: 30px;
+    color: #9692e6;
+}
+
+.content-benefit h2 {
+    color: #9692e6;
+}
+
+.content-benefit p {
+    text-align: left;
+}
+
+.more-btn {
+    background-color: #9692e6;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/* ----- QUINTA SECTION ----- */
+.txt-aboutus {
+    text-align: left;
+}
+.txt-aboutus h1 {
+    font-size: 40px;
+    color: #9692e6;
+}
+
+.txt-aboutus h3 {
+    font-size: 22px;
+    line-height: 30px;
+    color: #9692e6;
+    margin-bottom: 20px;
+}
+
+.txt-aboutus p {
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.txt-aboutus img {
+    width: 60%;
+    margin: 25px;
+}
+
+.linkedin-btn {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #9692e6;
+    padding: 10px 20px;
+}
+
+/* ----- SESTA SECTION ----- */
+.call-to-action {
+    color: white;
+}
+
+.call-to-action h3 {
+    font-weight: normal;
+    font-size: 20px;
+    color: gray;
+}
+
+.call-to-action h2 {
+    font-weight: normal;
+    font-size: 28px;
+    margin: 25px 0;
+}
+
+.call-to-action h1 {
+    color: #ffc25d;
+    font-size: 50px;
+}
+
+.call-to-action p {
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.get-started-btn {
+    color: #9692e6;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px 40px;
+}
+
+#terms {
+    font-size: 12px;
+}
+
+#terms a {
+    color: white;
+}
+
+/* ----- FOOTER ----- */
+footer {
+    background-color: #333333;
+    padding: 25px 0;
+    color: white;
+}
+
+footer p:first-child {
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+#templates {
+    font-size: 10px;
+}
+
+#templates a {
+    font-size: 12px;
+    color: #9692e6;
 }
