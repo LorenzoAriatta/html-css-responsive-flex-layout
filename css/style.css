@@ -4,5 +4,52 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+/* ----- UTILITY ----- */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* ----- HEADER ----- */
+header {
+    background-color: #0084ff;
+    color: white;
+}
+
+.menu li {
+    list-style-type: none;
+    color: white;
+    display: inline;
+    display: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    display: none;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.button {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: none;
+}
