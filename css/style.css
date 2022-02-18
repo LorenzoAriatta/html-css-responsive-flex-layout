@@ -211,7 +211,7 @@ header {
 }
 
 .freepik {
-    font-size: 18px;
+    font-size: 14px;
     color: black;
 }
 
@@ -222,13 +222,12 @@ header {
 /* ----- SECONDA SECTION ----- */
 .section-large {
     background-color: #9692e6;
-    margin-top: 25px;
+    margin: 25px 0;
     padding: 50px 0;
 }
 
 .img-notebook {
     width: 100%;
-    /* margin: 50px 0; */
 }
 
 .txt-planning {
@@ -266,5 +265,93 @@ header {
 .content-app-dev i {
     background-color: #c4c2f3;
     padding: 18px 21px;
+    border-radius: 50%;
+}
+
+/* ----- TERZA SECTION ----- */
+.txt-testimonials h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.txt-testimonials h1 {
+    color: #9692e6;
+}
+
+.txt-testimonials p {
+    line-height: 25px;
+    margin: 20px 0;
+}
+.content-obama {
+    background-color: #ffbfbf;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.txt-obama h1 {
+    color: #9692e6;
+}
+
+.txt-obama h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.txt-obama p {
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.potrait {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.content-margot {
+    background-color: #feddaa;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: center;
+    row-gap: 20px;
+}
+.txt-margot h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.txt-margot p {
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.potrait {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.content-bender {
+    background-color: #b2e9ca;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: center;
+    row-gap: 20px;
+}
+.txt-bender h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.txt-bender p {
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.potrait {
+    width: 50%;
     border-radius: 50%;
 }
