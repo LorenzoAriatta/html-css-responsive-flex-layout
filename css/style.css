@@ -23,6 +23,7 @@ body {
 header {
     background-color: #0084ff;
     color: white;
+    margin-bottom: 50px;
 }
 
 .menu li {
@@ -58,6 +59,8 @@ header {
 .container {
     width: 80%;
     margin: 0 auto;
+    text-align: center;
+    row-gap: 20px;
 }
 
 .content-demo {
@@ -121,4 +124,147 @@ header {
     margin-top: 20px;
     color: #739b81;
     line-height: 25px;
+}
+
+.content-web {
+    background-color: #fed2d1;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.content-web i {
+    color: #fd898a;
+    font-size: 120px;
+}
+
+.txt-web {
+    text-align: center;
+}
+
+.txt-web h1 {
+    color: #fb8a93;
+    font-weight: 700;
+}
+
+.txt-web p {
+    margin-top: 20px;
+    color: #a5777a;
+    line-height: 25px;
+}
+
+.content-dev {
+    background-color: #ffe7c3;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.content-dev i {
+    color: #fec064;
+    font-size: 120px;
+}
+
+.txt-dev {
+    text-align: center;
+}
+
+.txt-dev h1 {
+    color: #f7c16f;
+    font-weight: 700;
+}
+
+.txt-dev p {
+    margin-top: 20px;
+    color: #ae936e;
+    line-height: 25px;
+}
+
+.content-branding {
+    background-color: #d5d4f4;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.content-branding i {
+    color: #9692e6;
+    font-size: 120px;
+}
+
+.txt-branding {
+    text-align: center;
+}
+
+.txt-branding h1 {
+    color: #9692e6;
+    font-weight: 700;
+}
+
+.txt-branding p {
+    margin-top: 20px;
+    color: #9f9fc4;
+    line-height: 25px;
+}
+
+.freepik {
+    font-size: 18px;
+    color: black;
+}
+
+.freepik a {
+    color: black;
+}
+
+/* ----- SECONDA SECTION ----- */
+.section-large {
+    background-color: #9692e6;
+    margin-top: 25px;
+    padding: 50px 0;
+}
+
+.img-notebook {
+    width: 100%;
+    /* margin: 50px 0; */
+}
+
+.txt-planning {
+    text-align: left;
+    color: white;
+}
+
+.txt-planning p {
+    line-height: 25px;
+    margin: 40px 0 20px;
+}
+
+.txt-planning h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.txt-planning a {
+    color: white;
+}
+
+.content-app-dev {
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.content-app-dev img {
+    width: 100%;
+}
+
+.content-app-dev i {
+    background-color: #c4c2f3;
+    padding: 18px 21px;
+    border-radius: 50%;
 }
