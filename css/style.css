@@ -23,7 +23,6 @@ body {
 header {
     background-color: #0084ff;
     color: white;
-    margin-bottom: 50px;
 }
 
 .menu li {
@@ -43,7 +42,7 @@ header {
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 2vh 0;
 }
 
 .button {
@@ -60,27 +59,32 @@ header {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    row-gap: 20px;
+    row-gap: 2vh;
+    padding: 5vh 0;
 }
 
+/* BLU */
 .content-demo {
     background-color: #b9dbfe;
     border-radius: 25px;
-    padding: 20px 20px 0;
+    padding: 2vh 2vh 0;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 2vh;
 }
 
 .txt h1 {
-    width: 50%;
+    font-size: 2rem;
+    text-align: left;
     color: #0084fd;
     font-weight: 700;
 }
 
 .txt p {
-    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-top: 2vh;
     color: #567fab;
-    line-height: 25px;
+    line-height: 3vh;
+    text-align: left;
 }
 
 #appstore-btn {
@@ -93,17 +97,20 @@ header {
 }
 
 #iphone {
-    width: 50%;
+    width: 70%;
     filter: saturate(0.8);
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    align-self: flex-start;
 }
 
+/* VERDE */
 .content-code {
     background-color: #caf0db;
     border-radius: 25px;
-    padding: 20px;
+    padding: 2vh;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 2vh;
 }
 
 .content-code i {
@@ -111,27 +118,26 @@ header {
     font-size: 120px;
 }
 
-.txt-code {
-    text-align: center;
-}
-
 .txt-code h1 {
     color: #5ebe81;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .txt-code p {
-    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-top: 2vh;
     color: #739b81;
-    line-height: 25px;
+    line-height: 3vh;
 }
 
+/* ROSSO */
 .content-web {
     background-color: #fed2d1;
     border-radius: 25px;
-    padding: 20px;
+    padding: 2vh;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 2vh;
 }
 
 .content-web i {
@@ -139,27 +145,26 @@ header {
     font-size: 120px;
 }
 
-.txt-web {
-    text-align: center;
-}
-
 .txt-web h1 {
     color: #fb8a93;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .txt-web p {
-    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-top: 2vh;
     color: #a5777a;
-    line-height: 25px;
+    line-height: 3vh;
 }
 
+/* ARANCIONE */
 .content-dev {
     background-color: #ffe7c3;
     border-radius: 25px;
-    padding: 20px;
+    padding: 2vh;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 2vh;
 }
 
 .content-dev i {
@@ -172,22 +177,25 @@ header {
 }
 
 .txt-dev h1 {
+    font-size: 2rem;
     color: #f7c16f;
     font-weight: 700;
 }
 
 .txt-dev p {
-    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-top: 2vh;
     color: #ae936e;
-    line-height: 25px;
+    line-height: 3vh;
 }
 
+/* VIOLET */
 .content-branding {
     background-color: #d5d4f4;
     border-radius: 25px;
-    padding: 20px;
+    padding: 2vh;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 2vh;
 }
 
 .content-branding i {
@@ -200,18 +208,20 @@ header {
 }
 
 .txt-branding h1 {
-    color: #9692e6;
+    font-size: 2rem;
+    color: #9693e4;
     font-weight: 700;
 }
 
 .txt-branding p {
-    margin-top: 20px;
-    color: #9f9fc4;
-    line-height: 25px;
+    font-size: 1.2rem;
+    margin-top: 2vh;
+    color: #676491;
+    line-height: 3vh;
 }
 
 .freepik {
-    font-size: 14px;
+    font-size: 0.8rem;
     color: black;
 }
 
@@ -222,12 +232,15 @@ header {
 /* ----- SECONDA SECTION ----- */
 .section-large {
     background-color: #9692e6;
-    margin-top: 25px;
-    padding: 50px 0;
 }
 
 .img-notebook {
     width: 100%;
+}
+
+.txt-planning h1 {
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .txt-planning {
@@ -236,13 +249,14 @@ header {
 }
 
 .txt-planning p {
-    line-height: 25px;
-    margin: 40px 0 20px;
+    line-height: 3vh;
+    margin: 4vh 0 2vh;
+    font-size: 1.2rem;
 }
 
 .txt-planning h2 {
     color: white;
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: normal;
 }
 
@@ -253,9 +267,9 @@ header {
 .content-app-dev {
     background-color: white;
     border-radius: 25px;
-    padding: 20px;
+    padding: 2vh;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 2vh;
 }
 
 .content-app-dev img {
@@ -271,38 +285,35 @@ header {
 /* ----- TERZA SECTION ----- */
 .txt-testimonials h2 {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1rem;
+    margin-bottom: 2vh;
 }
 
 .txt-testimonials h1 {
     color: #9692e6;
+    font-size: 2rem;
 }
 
 .txt-testimonials p {
-    line-height: 25px;
-    margin: 20px 0;
+    line-height: 3vh;
+    margin: 2vh 0;
 }
 .content-obama {
     background-color: #ffbfbf;
     border-radius: 25px;
-    padding: 20px;
+    padding: 2vh;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 2vh;
 }
 
-.txt-obama h1 {
-    color: #9692e6;
+.content-obama h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
-.txt-obama h2 {
-    font-size: 20px;
-    font-weight: normal;
-    margin-bottom: 20px;
-}
-
-.txt-obama p {
-    line-height: 25px;
-    margin: 20px 0;
+.content-obama p {
+    line-height: 3vh;
+    color: #4d4d4d;
 }
 
 .potrait {
@@ -313,19 +324,19 @@ header {
 .content-margot {
     background-color: #feddaa;
     border-radius: 25px;
-    padding: 20px;
+    padding: 2vh;
     align-items: center;
-    row-gap: 20px;
-}
-.txt-margot h2 {
-    font-size: 20px;
-    font-weight: normal;
-    margin-bottom: 20px;
+    row-gap: 2vh;
 }
 
-.txt-margot p {
-    line-height: 25px;
-    margin: 20px 0;
+.content-margot h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.content-margot p {
+    line-height: 3vh;
+    color: #4d4d4d;
 }
 
 .potrait {
@@ -336,20 +347,19 @@ header {
 .content-bender {
     background-color: #b2e9ca;
     border-radius: 25px;
-    padding: 20px;
+    padding: 2vh;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 2vh;
 }
 
-.txt-bender h2 {
-    font-size: 20px;
-    font-weight: normal;
-    margin-bottom: 20px;
+.content-bender h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
-.txt-bender p {
-    line-height: 25px;
-    margin: 20px 0;
+.content-bender p {
+    line-height: 3vh;
+    color: #4d4d4d;
 }
 
 .potrait {
@@ -358,28 +368,33 @@ header {
 }
 
 /* ----- QUARTA SECTION ----- */
-.txt-benefit {
+.txt-benefit h1{
     color: white;
+    font-size: 2rem;
 }
 
 .content-benefit {
     background-color: white;
     border-radius: 25px;
-    padding: 20px;
+    padding: 2vh;
     align-items: flex-start;
-    row-gap: 20px;
+    row-gap: 2vh;
 }
 
 .content-benefit i {
-    font-size: 30px;
+    font-size: 2.5rem;
     color: #9692e6;
 }
 
 .content-benefit h2 {
     color: #9692e6;
+    font-size: 1.5rem;
 }
 
 .content-benefit p {
+    font-size: 1rem;
+    line-height: 3vh;
+    color: #4d4d4d;
     text-align: left;
 }
 
@@ -397,25 +412,26 @@ header {
     text-align: left;
 }
 .txt-aboutus h1 {
-    font-size: 40px;
+    font-size: 2rem;
     color: #9692e6;
 }
 
 .txt-aboutus h3 {
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 4vh;
     color: #9692e6;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 .txt-aboutus p {
-    line-height: 30px;
-    margin: 20px 0;
+    line-height: 4vh;
+    margin: 2vh 0;
+    color: #4d4d4d;
 }
 
 .txt-aboutus img {
     width: 60%;
-    margin: 25px;
+    margin: 4vh 0;
 }
 
 .linkedin-btn {
@@ -433,24 +449,24 @@ header {
 
 .call-to-action h3 {
     font-weight: normal;
-    font-size: 20px;
-    color: gray;
+    font-size: 1rem;
+    color: #7e7d96;
 }
 
 .call-to-action h2 {
     font-weight: normal;
-    font-size: 28px;
-    margin: 25px 0;
+    font-size: 1.7rem;
+    margin: 3vh 0;
 }
 
 .call-to-action h1 {
     color: #ffc25d;
-    font-size: 50px;
+    font-size: 4rem;
 }
 
 .call-to-action p {
-    line-height: 30px;
-    margin: 20px 0;
+    line-height: 3vh;
+    margin: 3vh 0;
 }
 
 .get-started-btn {
@@ -472,20 +488,19 @@ header {
 /* ----- FOOTER ----- */
 footer {
     background-color: #333333;
-    padding: 25px 0;
     color: white;
 }
 
 footer p:first-child {
-    font-size: 14px;
-    margin-bottom: 50px;
+    font-size: 0.8rem;
+    margin-bottom: 10vh;
 }
 
 #templates {
-    font-size: 10px;
+    font-size: 0.8rem;
 }
 
 #templates a {
-    font-size: 12px;
+    font-size: 0.8rem;
     color: #9692e6;
 }
