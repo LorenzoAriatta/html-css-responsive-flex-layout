@@ -344,10 +344,14 @@ header {
 }
 
 .potrait {
-    width: 200px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    background-image: url("https://picsum.photos/200");
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 50%;
 }
-
 .content-margot {
     display: flex;
     flex-direction: column;
@@ -368,11 +372,6 @@ header {
     color: #4d4d4d;
 }
 
-.potrait {
-    width: 50%;
-    border-radius: 50%;
-}
-
 .content-bender {
     display: flex;
     flex-direction: column;
@@ -391,11 +390,6 @@ header {
 .content-bender p {
     line-height: 3vh;
     color: #4d4d4d;
-}
-
-.potrait {
-    width: 50%;
-    border-radius: 50%;
 }
 
 /* ----- QUARTA SECTION ----- */

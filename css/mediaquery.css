@@ -170,7 +170,7 @@
     }
 
     .strategic {
-        width: calc(100% / 2 - 10vh);
+        width: calc(100% / 2 - 5vh);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -178,7 +178,75 @@
     }
 
     .app-dev {
-        width: calc(100% / 2 - 10vh);
+        width: calc(100% / 2 - 5vh);
+    }
+
+    .content-obama {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-obama p {
+        text-align: center;
+    }
+
+    .content-margot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-margot p {
+        text-align: center;
+    }
+
+    .content-bender {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-bender p {
+        text-align: center;
+    }
+
+    .container-about {
+        height: 100vh;
+        align-items: center;
+    }
+
+    .txt-aboutus {
+        display: flex;
+    }
+
+    .testo-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .testo-about h1 {
+        font-size: 5rem;
+    }
+
+    .testo-about p {
+        font-size: 1.5rem;
+    }
+
+    .quote h3 {
+        font-size: 2rem;
+    }
+
+    .call-to-action {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot-container {
+        width: 50%;
         display: flex;
         flex-direction: column;
     }
