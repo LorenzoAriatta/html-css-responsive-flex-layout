@@ -1,3 +1,185 @@
-@media screen and (min-wihdth:820px) {
+@media screen and (min-width:820px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 2vw;
+    }
 
+    .content-demo {
+        flex-grow: 1;
+        width: calc(100% / 2 - 2vw);
+    }
+
+    .content-code, .content-web, .content-dev, .content-branding {
+        width: calc(100% / 3 - 2vw);
+    }
+
+    .txt-testimonials h1 {
+        font-size: 2.5rem;
+    }
+
+    .txt-testimonials p {
+        font-size: 1.2rem;
+    }
+
+    .content-obama {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .content-obama img {
+        width: 25%;
+    }
+
+    .content-obama p {
+        width: 75%;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .content-obama h2 {
+        width: 100%;
+    }
+
+    .content-margot {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .content-margot img {
+        width: 25%;
+    }
+
+    .content-margot p {
+        width: 75%;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .content-margot h2 {
+        width: 100%;
+    }
+
+    .content-bender {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .content-bender img {
+        width: 25%;
+    }
+
+    .content-bender p {
+        width: 75%;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .content-bender h2 {
+        width: 100%;
+    }
+
+    .content-benefit {
+        width: calc(100% / 2 - 2vw);
+    }
+
+    .txt-aboutus {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .testo-about {
+        width: 60%;
+        padding: 0 2vw;
+    }
+
+    .quote {
+        width: 40%;
+        padding: 0 2vw;
+    }
+
+    .call-to-action {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .call-to-action h2 {
+        font-size: 2.5rem;
+    }
+
+    .call-to-action h1 {
+        font-size: 6rem;
+    }
+
+    .call-to-action p {
+        font-size: 1.1rem;
+    }
+
+    .get-started-btn {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 2vw;
+    }
+
+    .menu li {
+        display: inline-block;
+    }
+
+    .menu li a {
+        display: inline-block;
+    }
+
+    .button {
+        display: inline-block;
+    }
+
+    .menu i {
+        display: none;
+    }
+
+    .content-demo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #iphone {
+        width: 100%;
+    }
+    
+    .img-iphone {
+        align-self: flex-end;
+    }
+
+    .text-blu {
+        width: 100%;
+    }
+
+    .strategic {
+        width: calc(100% / 2 - 10vh);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .app-dev {
+        width: calc(100% / 2 - 10vh);
+        display: flex;
+        flex-direction: column;
+    }
 }
